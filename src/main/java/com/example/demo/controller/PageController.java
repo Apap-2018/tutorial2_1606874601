@@ -38,11 +38,9 @@ public class PageController {
 		
 		model.addAttribute("a", a);
 		int aa = Integer.parseInt(a);
-		model.addAttribute("aa", aa);
 		
 		model.addAttribute("b", b);
 		int bb = Integer.parseInt(b);
-		model.addAttribute("bb",bb);
 		
 		String res="";
 		if(aa == 0 && bb == 0) res = "hm";
